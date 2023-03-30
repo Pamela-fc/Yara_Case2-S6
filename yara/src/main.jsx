@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Sobre from './routes/sobre';
 
 import Home from './routes/home';
 
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+  {
+        path: "/sobre",
+        element: <Sobre />,
       },
     ],
   },
