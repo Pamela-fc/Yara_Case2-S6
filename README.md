@@ -29,7 +29,6 @@
 - `React`
 - `MySQL`
 - `Node`
-- `Sqlite`
 - `Canva`
 
 ### ⚜ COLABORADORES: 
