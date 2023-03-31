@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+
+
+:root {
+    --cinza: #a6a6a6;
+    --preto: #000;
+    --bege: #d4b998;
+    --branco: #fff;
+    --grey: #2b2a2a;
+}
+
+
+.parallax {
+    background-image: url("../../components/img/slide1.png");
+    min-height: 85vh;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-conteudo {
+    padding: 200px;
+    color: white;
+    text-align: center;
+    font-family: 'League Script', cursive;
+}
+/* a cor do span do header*/
+.header-conteudo span {
+    color: var(--branco);
+    font-family: 'League Script', cursive;
+}
+/* h2 do header*/
+.header-conteudo > h2 {
+    font-size: 4vmin;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+/* linha embaixo do texto*/
+.linha {
+    width: 420px;
+    height: 4px;
+    background: var(--bege);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.linha2 {
+    width: 150px;
+    height: 4px;
+    background: var(--bege);
+    margin: 60px auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/* h1 do header*/
+.header-conteudo > h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'League Script', cursive;
+    opacity: 90%;
+}
+/* botão do saiba mais de todas a páginas*/
+.ctn {
+    padding: 8px 15px;
+    background: var(--branco);
+    border-radius: 30px;
+    color: var(--grey);
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+.ctn:hover {
+    background-color: #2b2a2a;
+    color: white;
+}
+
+/*botão do menu*/
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer; 
+    display: none;
+}
+ .cards {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    
+    
+  }
+  .sliding {
+    height: 120vh;
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.conteudo {
+    position: relative;
+    width: 110vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 300px;
+    overflow-x: hidden;
+}
+.conteudo .textoBox {
+    position: relative;
+    width: 900px;
+    margin-left: 450px;
+}
+.conteudo .textoBox h2{
+    color:rgb(255, 255, 255);
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.conteudo .textoBox h2 .cor1 {
+    color: var(--bege);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.conteudo .textoBox p {
+    color: rgb(255, 255, 255);
+}
+.conteudo .textoBox a {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 8px 20px;
+    background: black;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+  .circle1 {
+    position: absolute;
+    top: 200;
+    left: 0;
+    width: 5%;        
+    height: 120vh;
+    background-color: #ffffff;
+    clip-path: circle(2000px at right 1000px);
+}
+.circle2 {
+    position: absolute;
+    top: 200;
+    left: 0;
+    width: 10%;        
+    height: 120vh;
+    background-color: var(--bege);
+    clip-path: circle(2000px at right 1000px);
+}
+.circle3 {
+    position: absolute;
+    top: 200;
+    left: 0;
+    width: 100%;        
+    height: 120vh;
+    background-color: var(--bege);
+    clip-path: polygon(63% 0, 100% 0%, 81% 100%, 45% 100%);
+}
+
+.conteudo .mulher {
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    margin-top: 270px;
+    border: none;
+    
+}
+.conteudo a:hover {
+    background-color: white;
+    color: var(--grey);
+}
+
+
+
+
+  @media screen and (max-width: 810px){
+    .linha {
+        width: 350px;
+    }
+  }
+  @media screen and (max-width: 760px){
+    .linha {
+        width: 350px;
+    }
+  }
+  @media screen and (max-width: 700px){
+    .linha {
+        width: 260px;
+    }
+  }
+  @media screen and (max-width: 615px){
+    .linha {
+        width: 200px;
+    }
+  }
+  @media screen and (max-width: 590px){
+    .linha {
+        width: 170px;
+    }
+  }
