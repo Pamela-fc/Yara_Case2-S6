@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Sobre from './routes/sobre';
+import Contato from './routes/Contato'
+
 
 import Home from './routes/home';
 
@@ -19,7 +21,11 @@ const router = createBrowserRouter([
         path: "/sobre",
         element: <Sobre />,
       },
+<<<<<<< HEAD
   {
+=======
+    {
+>>>>>>> 2532afe287dc1cd79ab38f0bbea9206301d7a2ad
         path: "/Contato",
         element: <Contato />,
       },
