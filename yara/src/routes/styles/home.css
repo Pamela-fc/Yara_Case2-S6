@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Merriweather:ital@1&display=swap');
 
 :root {
     --cinza: #a6a6a6;
@@ -22,16 +22,16 @@
     padding: 200px;
     color: white;
     text-align: center;
-    font-family: 'League Script', cursive;
+    font-family: 'Merriweather', serif;
 }
 /* a cor do span do header*/
 .header-conteudo span {
     color: var(--branco);
-    font-family: 'League Script', cursive;
+    font-family: 'Merriweather', serif;
 }
 /* h2 do header*/
 .header-conteudo > h2 {
-    font-size: 4vmin;
+    font-size: 5vmin;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
@@ -53,11 +53,11 @@
 }
 /* h1 do header*/
 .header-conteudo > h1 {
-    font-size: 7vmin;
+    font-size: 8vmin;
     margin-top: 50px;
     margin-bottom: 30px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-family: 'League Script', cursive;
+    font-family: 'Merriweather', serif;
     opacity: 90%;
 }
 /* botão do saiba mais de todas a páginas*/
