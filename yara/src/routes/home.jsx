@@ -12,7 +12,7 @@ function Home() {
         <header className="headHome">
         <div class="parallax">
             <div className="header-conteudo">
-            <h2><span>Escola de música</span></h2>
+            <h2><span>Escola de música brasileira</span></h2>
             <div class="linha"></div>
             <h1>Yara</h1>
             <div class="linha2"></div>
@@ -24,19 +24,21 @@ function Home() {
     <section className="secaoHome">
         <div className="cards">
         <Card 
-        title="Música"
+        title="Música MPB"
         imageURL="https://i.ibb.co/1v4cpbR/pngtree-a-beautiful-guitar-vector-or-color-illustration-png-image-2030580.jpg"
-        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lacus lacinia, molestie magna eu, iaculis ante. Integer enim lorem, vulputate eget laoreet vel, iaculis vel felis. Nullam fermentum, lorem a posuere sollicitudin, turpis erat blandit lectus, eget porttitor metus eros nec felis. Vivamus at convallis nisl."
+        body="A MPB para o Brasil é justamente sua representatividade, a união de um povo e a combinação de suas diferenças. A MPB nos lembra de nossa miscigenação e da riqueza cultural que possuímos.        "
         />
                 <Card 
         title="Cultura"
         imageURL="https://i.ibb.co/Xj8p8sK/istockphoto-841990744-612x612.jpg"
-        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lacus lacinia, molestie magna eu, iaculis ante. Integer enim lorem, vulputate eget laoreet vel, iaculis vel felis. Nullam fermentum, lorem a posuere sollicitudin, turpis erat blandit lectus, eget porttitor metus eros nec felis. Vivamus at convallis nisl."
+        body="Nosso objetivo como escola de musica é levar nossa cultura brasileira por todo o mundo através do MPB.
+        "
         />
                 <Card 
         title="Diversão"
         imageURL="https://i.ibb.co/DfFVWzf/360-F-564791516-d2p-W4-Lz-Yodf72-Si4-TWc-Zd-FNS7-RUT2oy-W.jpg"
-        body='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lacus lacinia, molestie magna eu, iaculis ante. Integer enim lorem, vulputate eget laoreet vel, iaculis vel felis. Nullam fermentum, lorem a posuere sollicitudin, turpis erat blandit lectus, eget porttitor metus eros nec felis. Vivamus at convallis nisl.'
+        body='Além de tudo podemos provar o poder da nossa cultura, levando diversão a todos os nossos alunos e colaboradores
+        .'
         />
         </div>
         <div className="backgroundCard">
