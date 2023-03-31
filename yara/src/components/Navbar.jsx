@@ -2,6 +2,8 @@ import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './styles/navbar.css';
 import Logo from '../components/img/Logo.png';
+import Sobre from '../routes/sobre';
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -19,7 +21,7 @@ function NavBar() {
             </div>
             <nav ref={navRef}>
                 <a href="/#">Home</a>
-                <a href="/#">Sobre</a>
+                <Link to='/sobre'><a>Sobre</a></Link>
                 <a href="/#">Contatos</a>
                 <a href="/#">Inscrição</a>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
