@@ -22,7 +22,7 @@ function NavBar() {
             <nav ref={navRef}>
                 <a href="/#">Home</a>
                 <Link to='/sobre'><a>Sobre</a></Link>
-                <a href="/#">Contatos</a>
+                <Link to={'/Contato'}><a>Contatos</a></Link>
                 <a href="/#">Inscrição</a>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                     <FaTimes />
