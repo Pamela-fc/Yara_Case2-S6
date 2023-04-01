@@ -24,6 +24,12 @@
 
 ⇨ Ter o código fonte hospedado em um repositório no Github.
 
+### ⚜ Demonstração
+
+⇨ Vídeo demonstrativo; Clique na imagem para ser redirecionado.
+
+[![Watch the video](https://github.com/Pamela-fc/Yara_Case2-S6/blob/main/YARA%20-%20Imagens/Screenshot_5.png?raw=true)](https://www.youtube.com/watch?v=ENGGInjYU-8&ab_channel=Biel2KH)
+
 ### ⚜ FERRAMENTAS UTILIZADAS:
 
 - `React`
