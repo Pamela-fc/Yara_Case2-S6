@@ -14,9 +14,9 @@
 
 ⇨ Utilizar o README.md do repositório para documentação, contendo informações como:
 
-- Como instalar as dependências do projeto; NPM ADD EXPRESS NODEMON MYSQL CORs.
+- Como instalar as dependências do projeto; YARN ADD EXPRESS NODEMON MYSQL CORS na pasta api dentro de Yara/src. Na pasta yara no terminal digite NPM INSTALL e na pasta Front, dentro de Yara/Src no terminal digite NPM INSTALL.
 
-- Como executar o projeto; NPM START.
+- Como executar o projeto; Na pasta yara no terminal digite NPM RUN DEV
 
 - Quais são as rotas possíveis; getUSERS addUser updateUser deleteUser.
 
